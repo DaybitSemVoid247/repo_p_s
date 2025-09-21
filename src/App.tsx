@@ -18,6 +18,7 @@ function App(){
                 <button onClick={() => setPagina("menu")}>Crear Menú</button><br />
                 <button onClick={() => setPagina("usuario")}>Gestion de Ususarios</button><br />
                 <button onClick={() => setPagina("estadistica")}>Estadistica de Ventas</button><br />
+                <button onClick={() => navigate("/mesas")}>Atencion al Cliente</button>
               </div>
               <button onClick={() => navigate("/login")}>Iniciar sesión</button>
             </th>
