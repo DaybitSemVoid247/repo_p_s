@@ -5,8 +5,8 @@ export default function Reserva(){
 
             <div className="container-text">
                 <input type="text" placeholder="Nombre" />
-                <input type="number" placeholder="Detalle del Pedido" />
-                <input type="number" placeholder="Total" />
+                <input type="text" placeholder="Detalle" />
+                <input type="number" placeholder="Total de Personas" />
 
                 <select>
                     <option value="mesa1">Mesa 1</option>
